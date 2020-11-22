@@ -3,7 +3,7 @@
   "version": "1.10.0",
   "description": "A JavaScript quiz built with React.",
   "main": "main.js",
-  "homepage": "https://harshpandya43.github.io/QuizNight/",
+  "homepage": "https://harshpandya43.github.io/QuizNight",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
