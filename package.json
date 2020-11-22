@@ -4,11 +4,13 @@
   "description": "A JavaScript quiz built with React.",
   "main": "main.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "webpack-dev-server --mode development --config webpack.config.dev.js --open",
     "build": "webpack --mode production --config webpack.config.prod.js --progress"
   },
   "repository": "harshpandya43/QuizNight",
-  "homepage": "https://github.com/harshpandya43/QuizNight",
+  "homepage": "https://harshpandya43.github.io/QuizNight/",
   "author": "David Ra Youssef (davidradeveloper@gmail.com)",
   "license": "MIT",
   "devDependencies": {
@@ -23,6 +25,7 @@
     "eslint-loader": "^2.0.0",
     "eslint-plugin-react": "^7.7.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^3.2.0",
     "prop-types": "^15.6.1",
     "react": "^16.3.2",
